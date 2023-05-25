@@ -52,8 +52,6 @@ typedef struct instruction_s
 	void (*f)(stack_t **stack, unsigned int line_number);
 } instruction_t;
 
-//The following are the prototypes of all functions used in this project (monty)
-
 char *_realloc(char *ptr, unsigned int old_size, unsigned int new_size);
 
 ssize_t getstdin(char **lineptr, int file);
