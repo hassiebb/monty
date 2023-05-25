@@ -92,9 +92,9 @@ void f_rotl(stack_t **head, unsigned int count);
 
 void f_rotr(stack_t **head, __attribute__((unused)) unsigned int count);
 
-void addnode(stack_t **head, int n);
+void addnode(stack_t **head, int new_value);
 
-void addqueue(stack_t **head, int n);
+void addqueue(stack_t **head, int new_value);
 
 void f_queue(stack_t **head, unsigned int count);
 
