@@ -58,7 +58,6 @@ ssize_t getstdin(char **lineptr, int file);
 
 char  *clean_line(char *content);
 
-//The f_push function pushes an element to the stack.
 void f_push(stack_t **head, unsigned int number);
 
 void f_pall(stack_t **head, unsigned int number);
